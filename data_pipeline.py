@@ -1,4 +1,4 @@
-from functions import *
+from functions import getVideoIDs, getVideoTranscripts, transformData, createTextEmbeddings
 import datetime
 import time
 
@@ -25,3 +25,10 @@ transformData()
 t1=time.time()
 print("step 3: Done")
 print(f"Data transformed in {str(t1-t0)} seconds")
+
+# Step 4: Generate text emebeddings
+t0 = time.time()
+createTextEmbeddings()
+t1 = time.time()
+print("Step 4: Done")
+print("---> Embeddings generated in", str(t1-t0), "seconds", "\n")
