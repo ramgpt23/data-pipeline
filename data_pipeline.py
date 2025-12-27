@@ -7,7 +7,7 @@ print("=========================================")
 
 # step 1: extract video ids
 t0=time.time()
-getVideoIds()
+getVideoIDs()
 t1=time.time()
 print("step 1: Done")
 print(f"Video IDs downloaded in {str(t1-t0)} seconds")
