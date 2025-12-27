@@ -43,7 +43,7 @@ def getVideoIDs():
     channel_id = 'UCa9gErQ9AE5jT2DZLjXBIdA' 
     page_token = None
     url = 'https://www.googleapis.com/youtube/v3/search' 
-    my_key = os.getenv('YT_API_KEY')
+    my_key = os.getenv('YOUTUBE_API_KEY')
 
     # extract video data across multiple search result pages
     video_record_list = []
