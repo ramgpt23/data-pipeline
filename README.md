@@ -1,6 +1,6 @@
 # data-pipeline
 
-A small end-to-end data pipeline that extracts video IDs, downloads transcripts, transforms the data, and generates text embeddings.
+An end-to-end data pipeline that extracts video IDs, downloads transcripts, transforms the data, and generates text embeddings.
 
 ## Overview
 
